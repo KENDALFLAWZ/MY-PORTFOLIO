@@ -1,0 +1,248 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+    background-color: #36454f;
+
+    color: white;
+
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header logo {
+    font-size: 50px;
+
+}
+
+
+nav ul {
+    display: flex;
+    list-style: none;
+    color: white;
+
+}
+
+nav ul li a {
+    color: white;
+    margin: 20px;
+    text-decoration: overline;
+    text-decoration-color: #96DED1;
+    text-decoration-style: solid;
+    transition: 0.4s;
+}
+
+nav ul li a:hover {
+    transform: scale(5.2);
+    color: #4c5f63;
+    border-bottom: #20cac5 solid;
+    b
+}
+
+#logo span {
+    font-family: 'roboto';
+    color: whitesmoke;
+}
+
+#logo {
+    text-shadow: 1px 2px 2px #20cac5, 0 0 25px black, 0 2px 5px #11f5ed;
+    font-size: 30px;
+    font-weight: 900;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+main section {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#home h2 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 30px;
+    text-shadow: 1px 0 3px #20cac5, 0 0 25px black;
+}
+
+#home .capon {
+    line-height: 2;
+    margin: 30px;
+    font-weight: solid;
+    font-size: 30px;
+}
+
+#home .cap {
+    text-align: right;
+    width: 25%;
+    margin: 70px;
+    font-size: 20px;
+}
+
+#home .image img {
+    width: 25%;
+    border-radius: 50%;
+    border: 5px solid  #20cac5;
+    margin-right: 30px;
+}
+
+#home .image {
+    float: left;
+}
+
+#about {
+    text-align: center;
+}
+
+#about h2 {
+    font-size: 50px;
+    text-shadow: 1px 0 3px #20cac5, 0 0 25px black;
+}
+
+#about p {
+    width: 50%;
+    margin: 30px auto;
+    line-height: 2;
+    padding: 0 30px;
+    font-size: 30px;
+}
+
+#about .skills .skill-container .skills-item {
+    margin: 100px auto;
+    text-align: left;
+}
+
+
+#about .skills .skill-container .skills-item .code {
+    float: left;
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    border: 5px solid #20cac5;
+    margin-right: 30px;
+}
+
+#about .skills .skill-container .skills-item .any {
+    width: 300px;
+    height: 200px;
+    border-radius: 10px;
+    float: right;
+    margin-left: 30px;
+    border: 5px solid #20cac5;
+
+
+}
+
+.skills .skill-container .skills-item h3 {
+    font-size: 25px;
+
+}
+
+.skills .skill-container .skills-item p {
+    font-size: 18px;
+    line-height: 2;
+}
+
+#project .the {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 1px 0 3px #20cac5, 0 0 25px black;
+}
+
+#project .project-container {
+    display: flex;
+    justify-content: center;
+}
+
+#project .project-container .project-item {
+    margin: 50px;
+    background-color: white;
+    color: black;
+    padding: 50px;
+    border-radius: 20px;
+
+}
+
+#project .project-container .project-item h3 {
+    font-size: 20px;
+    font-weight: 900;
+    margin-bottom: 20px;
+}
+
+#project .project-container .project-item a {
+    color: #20cac5;
+    margin: 100px;
+    text-decoration: overline underline;
+    text-decoration-color: #96DED1;
+    text-decoration-style: solid;
+    transition: 0.4s;
+    padding: 50%;
+}
+
+#contact{
+    text-align: center;
+}
+#contact p{
+    font-size: 26px;
+}
+#contact h2{
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    text-shadow: 1px 0 3px #20cac5, 0 0 25px black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer .socialmedia {
+    display: inline-block;
+    padding: 10px;
+    font-weight: solid;
+    font-size: 40px;
+    /* Custom size */
+    color: #3498db;
+    /* Custom color */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    /* Shadow effect */
+    transition: transform 0.3s ease;
+    width: 70%;
+    margin: 0 100px;
+}
+
+.link p a {
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+    margin: 50px;
+
+}
